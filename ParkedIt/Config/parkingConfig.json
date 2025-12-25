@@ -1,0 +1,238 @@
+{
+  "institution": {
+    "id": "INST-001",
+    "name": "Grand Shopping Mall",
+    "type": "Mall",
+    "isFreeParking": false,
+    "freeMinutes": 30,
+    "baseRate": 10.00,
+    "hourlyRate": 5.00,
+    "rules": {
+      "maxParkingHours": 8,
+      "hasVipSpots": true,
+      "hasStaffSpots": true,
+      "hasAccessibleSpots": true,
+      "allowedVehicleTypes": [
+        "Car",
+        "Bike",
+        "EV",
+        "Auto",
+        "Bicycle"
+      ],
+      "timeBasedRules": {
+        "peakHours": "10:00-22:00",
+        "offPeakMultiplier": "0.8"
+      }
+    }
+  },
+  "parkingLot": {
+    "id": "LOT-001",
+    "name": "Grand Mall Parking",
+    "floors": [
+      {
+        "id": "FLOOR-1",
+        "name": "Ground Floor",
+        "isEnabled": true,
+        "sections": [
+          {
+            "id": "SEC-A",
+            "name": "Section A - North Wing",
+            "isEnabled": true,
+            "spots": [
+              {
+                "id": "SPOT-001",
+                "type": "VIP",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": ["Car", "EV"]
+              },
+              {
+                "id": "SPOT-002",
+                "type": "VIP",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": ["Car", "EV"]
+              },
+              {
+                "id": "SPOT-003",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-004",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-005",
+                "type": "Accessible",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              }
+            ]
+          },
+          {
+            "id": "SEC-B",
+            "name": "Section B - South Wing",
+            "isEnabled": true,
+            "spots": [
+              {
+                "id": "SPOT-006",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-007",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-008",
+                "type": "Staff",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-009",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-010",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FLOOR-2",
+        "name": "First Floor",
+        "isEnabled": true,
+        "sections": [
+          {
+            "id": "SEC-C",
+            "name": "Section C - East Wing",
+            "isEnabled": true,
+            "spots": [
+              {
+                "id": "SPOT-011",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-012",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-013",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-014",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-015",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              }
+            ]
+          },
+          {
+            "id": "SEC-D",
+            "name": "Section D - West Wing",
+            "isEnabled": true,
+            "spots": [
+              {
+                "id": "SPOT-016",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-017",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-018",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-019",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              },
+              {
+                "id": "SPOT-020",
+                "type": "Standard",
+                "status": "Available",
+                "isEnabled": true,
+                "allowedVehicleTypes": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "FLOOR-3",
+        "name": "Second Floor",
+        "isEnabled": false,
+        "sections": [
+          {
+            "id": "SEC-E",
+            "name": "Section E - Maintenance",
+            "isEnabled": false,
+            "spots": [
+              {
+                "id": "SPOT-021",
+                "type": "Standard",
+                "status": "Disabled",
+                "isEnabled": false,
+                "allowedVehicleTypes": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
