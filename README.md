@@ -160,7 +160,7 @@ ParkedIt/
 
 1. **Clone or navigate to the project directory:**
    ```bash
-   cd /Users/arun/Projects/ParkedIt/ParkedIt
+   cd /Users/username/Projects/ParkedIt/ParkedIt
    ```
 
 2. **Restore dependencies:**
